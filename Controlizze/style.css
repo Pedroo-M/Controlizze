@@ -1,0 +1,83 @@
+body{
+  background-color: #1e1e1e;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, li, a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerPlanos{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px #fff solid;
+}
+
+.conteinerB{
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+  gap: 50px;
+}
+
+.conteinerB a{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.logo{
+  margin: 0 0 10px 20px;
+  justify-content: flex-start;
+}
+
+.bPlanos, .bVerPlanos{
+  background-color: #7C3AED;
+  width: 135px;
+  height: 52px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+}
+
+.pControle{
+  color: #7C3AED;
+  margin-left: 5px;
+}
+
+.paragrafoA{
+  display: flex;
+  margin: 30px auto;
+  width: 1000px;
+  height: 348px;
+  align-items: center;
+  justify-content: center;
+  border: #7C3AED solid 1px;
+  border-radius: 20px;
+}
+
+.textoA{
+  text-align: center;
+  justify-items: center;
+}
+
+.paragrafoA h1, h3{
+  color: #fff;
+}
+
+.bVerPlanos{
+  width: 139px;
+  height: 41px;
+}
+
+.secPlanosPremium{
+  width: 1000px;
+  height: 348px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
